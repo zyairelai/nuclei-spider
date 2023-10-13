@@ -37,15 +37,17 @@ pip3 install ParamSpider/
 sleep 1
 rm -rf ParamSpider/
 ```
-### Lastly change the following file and line to the `/opt/nuclei` directory
+### Lastly change the following file and line to the `/opt/nuclei/` directory
 ```
 nano ~/.config/nuclei/.templates-config.json
 ```
-Yes yes this line
+Yes yes this line  
+![image](https://github.com/zyairelai/nuclei-spider/assets/49854907/14af66ab-933f-4db3-a198-bd761aff2c49)
+
 ```
 "nuclei-templates-directory":"/opt/nuclei/nuclei-templates"
 ```
-### Pretty much that's it, now you can `wget` the `uwu.sh` script and move to your `/usr/bin`
+# INSTALLATION
 ```
 wget https://raw.githubusercontent.com/zyairelai/nuclei-spider/main/uwu.sh
 chmod a+x uwu.sh

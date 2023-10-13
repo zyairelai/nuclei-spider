@@ -58,3 +58,7 @@ sudo mv uwu.sh /usr/bin/nucleispider
 - It use `ParamSpider` to crawl the domain URL and its endpoints from wayback archive
 - Then all the paramater will be replaced with `FUZZ`
 - Using Nuclei fuzzing template to fuzz all the `FUZZ` parameters to identify XSS, SQLi, Command Injection etc
+
+# What to expect 
+if you are facing a very new web app or UAT environment  
+![image](https://github.com/zyairelai/nuclei-spider/assets/49854907/ee4159bf-7cb6-4083-92df-62519930463d)
